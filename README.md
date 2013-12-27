@@ -16,6 +16,8 @@ Logging in
 
 	vagrant ssh
 
+The current Setting will use the nova-network 
+
 
 Create instance by using openstack
 
