@@ -51,7 +51,7 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
      # Use VBoxManage to customize the VM. For example to change memory:
      vb.customize ["modifyvm", :id, "--memory", "2048"]
      
-     # eth2 allow promiscous mode 
+     # eth1 allow promiscous mode 
      vb.customize ["modifyvm", :id, "--nicpromisc2", "allow-all"]
      
   end
